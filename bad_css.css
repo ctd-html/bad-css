@@ -1,12 +1,150 @@
+/*GENERAL*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*TOP SECTION*/
 .top-section > ul > li {
   list-style: none;
   display: inline;
-  margin-left: 10px;
-  margin-right: 10px;
-  padding-left: 5px; padding-top: 2px; padding-bottom: 2px; padding-right: 5px;
+  margin: 0 10px;
+  padding: 2px 5px;
   background-color: gray;
 }
 
+.top-section {
+  height: 25px;
+  border-bottom: 3px grey solid;
+}
+
+.top-section {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: black;
+  z-index: 2;
+}
+
+.top-section a {
+  text-decoration: none;
+  color: white;
+}
+
+.top-section > ul {
+  list-style: none;
+  display: inline;
+}
+
+/*SECTION ONE*/
+.section-one {
+  height: 500px;
+  background-color: black
+}
+.section-one-left {
+  border: 3px solid gray;
+  width: 30%;
+  float: left;
+  color: white;
+  margin-left: 40px;
+}
+.section-one-left .section-one-picture {
+  width: 100%;
+}
+
+.section-one-box {
+  color: white;
+  float: right;
+  width: 60%;
+}
+
+.section-one-box-a {
+  background-color: grey;
+  margin-bottom: 20px;
+}
+
+.section-one-box-b {
+  background-color: grey;
+  margin: 20px 0;
+}
+
+.section-one-box-c {
+  background-color: grey;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.section-one-left .section-one-picture {
+  width: 100%;
+}
+
+.section-one-box {
+  color: white;
+  float: right;
+  width: 60%;
+}
+
+.section-one-box-a {
+  background-color: grey;
+  margin-bottom: 20px;
+}
+
+.section-one-box-b {
+  background-color: grey;
+  margin: 20px 0;
+}
+
+.section-one-box-c {
+  margin-bottom: 40px;
+  background-color: grey;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.section-one-heading {
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+}
+
+/*SECTION TWO*/
+.section-two-header {
+  color: white;
+  text-align: center;
+}
+
+.section-two-container {
+  border: 2px solid black;
+  background-color: lightgrey;
+  margin-left: 40px;
+}
+
+.section-two {
+  height: 500px;
+  background-color: darkblue;
+}
+
+/*SECTION THREE*/
+.section-three {
+  height: 1000px;
+  background-color: grey;
+}
+
+
+.section-three h2 {
+  text-align: center;
+
+}
+
+.section-three-container {
+  height: 600px;
+  width: 800px;
+  border: 3px solid red;
+  margin-left: 40px;
+  position: relative;
+}
+
+/*IMAGES*/
 .img-1 {
   width: 300px;
   position: relative;
@@ -32,118 +170,9 @@
   right: 305px;
 }
 
-.top-section {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: black;
-  z-index: 999;
-}
-
-.top-section a {
-  text-decoration: none;
-  color: white;
-}
-
-.top-section > ul {
-  list-style: none;
-  display: inline;
-}
-
-html * {
-  margin: 0;
-  padding: 0;
-}
-
-.top-section {
-  height: 25px;
-  border-bottom: 3px grey solid;
-}
-
-.section-one {
-  height: 500px;
-  background-color: black
-}
-
-.section-one-heading {
-  color: white;
-  text-align: center;
-  padding-top: 30px;
-}
-
 .image {
   width: 200px;
   float: left;
   margin-left: 20px;
   margin-right: 20px;
 }
-
-.section-two {
-  height: 500px;
-  background-color: darkblue;
-}
-
-.section-three {
-  height: 1000px;
-  background-color: grey;
-}
-
-.section-one-left {
-  border-width: 3px;
-  border-style: solid;
-  border-color: gray;
-  width: 30%;
-  float: left;
-  color: white;
-  margin-left: 40px;
-}
-.section-one-left .section-one-picture {
-  width: 100%;
-}
-
-.section-one-box {
-  color: white; float: right; width: 60%;
-}
-
-.section-one-box-a {
-  background-color: grey;
-  margin-bottom: 20px;
-}
-
-.section-one-box-b {
-  background-color: grey;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.section-one-box-c {
-  margin-bottom: 40px;
-  background-color: grey;
-  padding-top: 20px;
-  margin-bottom: 20px;
-}
-
-.section-two-header {
-  color: white;
-  text-align: center;
-}
-
-.section-two-container {
-  border: 2px solid black;
-  background-color: lightgrey;
-  margin-left: 40px;
-}
-
-.section-three h2 {
-  text-align: center;
-
-}
-
-.section-three-container {
-  height: 600px;
-  width: 800px;
-  border: 3px solid red; margin-left: 40px; position: relative;
-}
-
-
-
