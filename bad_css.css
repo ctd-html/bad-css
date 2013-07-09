@@ -5,33 +5,29 @@
 }
 
 /*TOP SECTION*/
-.top-section > ul > li {
+.nav > ul > li {
   list-style: none;
   display: inline;
   margin: 0 10px;
   padding: 2px 5px;
   background-color: gray;
 }
-
-.top-section {
-  height: 25px;
-  border-bottom: 3px grey solid;
-}
-
-.top-section {
+.nav {
   position: fixed;
   top: 0;
   width: 100%;
   background-color: black;
   z-index: 2;
+  height: 25px;
+  border-bottom: 3px grey solid;
 }
 
-.top-section a {
+.nav a {
   text-decoration: none;
   color: white;
 }
 
-.top-section > ul {
+.nav > ul {
   list-style: none;
   display: inline;
 }
@@ -48,95 +44,68 @@
   color: white;
   margin-left: 40px;
 }
-.section-one-left .section-one-picture {
+.section-one-left .mypicture {
   width: 100%;
 }
 
-.section-one-box {
+.page-info{
   color: white;
   float: right;
   width: 60%;
 }
 
-.section-one-box-a {
+.page-info-a{
   background-color: grey;
   margin-bottom: 20px;
 }
 
-.section-one-box-b {
+.page-info-b{
   background-color: grey;
   margin: 20px 0;
 }
 
-.section-one-box-c {
+.page-info-c {
   background-color: grey;
   padding-top: 20px;
   margin-bottom: 20px;
 }
 
-.section-one-left .section-one-picture {
-  width: 100%;
-}
-
-.section-one-box {
-  color: white;
-  float: right;
-  width: 60%;
-}
-
-.section-one-box-a {
-  background-color: grey;
-  margin-bottom: 20px;
-}
-
-.section-one-box-b {
-  background-color: grey;
-  margin: 20px 0;
-}
-
-.section-one-box-c {
-  margin-bottom: 40px;
-  background-color: grey;
-  padding-top: 20px;
-  margin-bottom: 20px;
-}
-
-.section-one-heading {
+h1 {
   color: white;
   text-align: center;
   padding-top: 30px;
 }
 
 /*SECTION TWO*/
-.section-two-header {
+.thingsILike h2{
   color: white;
   text-align: center;
 }
 
-.section-two-container {
+.thingsILike .pictures {
   border: 2px solid black;
   background-color: lightgrey;
   margin-left: 40px;
 }
 
-.section-two {
+.thingsILike {
   height: 500px;
   background-color: darkblue;
 }
 
 /*SECTION THREE*/
-.section-three {
+.dont-like {
   height: 1000px;
   background-color: grey;
 }
 
 
-.section-three h2 {
+.dont-like h2 {
   text-align: center;
 
 }
 
-.section-three-container {
+.dont-like .pictures {
   height: 600px;
   width: 800px;
   border: 3px solid red;
@@ -145,25 +114,23 @@
 }
 
 /*IMAGES*/
-.img-1 {
+.milk {
   width: 300px;
-  position: relative;
-  top: 0;
-  right: 0;
+
 }
-.img-2 {
+.lawnmower {
   width: 300px;
   position: absolute;
   bottom: 0;
   right: 0;
 }
-.img-3 {
+.cyrus {
   width: 300px;
   position: absolute;
   top: 0;
   right: 0;
 }
-.img-4 {
+.football {
   width: 300px;
   position: relative;
   top: 308px;
@@ -173,6 +140,5 @@
 .image {
   width: 200px;
   float: left;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 0 20px
 }
